@@ -1,7 +1,5 @@
 variable "azure_region" {}
 
-variable "image_name" {}
-
 variable "windows_user" {
   default = "hab"
 }
