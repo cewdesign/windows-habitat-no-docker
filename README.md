@@ -7,14 +7,14 @@
 1. Install Habitat
   ```
   Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-  choco install habitat -y
+  choco install git googlechrome habitat vscode -y
   ```
 
 1. Create working directory for building your application
 
   ```
-  mkdir packer
-  cd packer
+  mkdir myapp
+  cd myapp
   ```
 
 1. Setup habitat

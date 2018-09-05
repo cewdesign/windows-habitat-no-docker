@@ -24,4 +24,4 @@ results/
 
 *.tfstate
 *.tfstate.backup
-
+.terraform
