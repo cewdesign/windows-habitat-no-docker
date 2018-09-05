@@ -21,3 +21,7 @@ Berksfile.lock
 .zero-knife.rb
 Policyfile.lock.json
 results/
+
+*.tfstate
+*.tfstate.backup
+
